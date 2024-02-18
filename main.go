@@ -2,10 +2,10 @@ package custom
 
 import "log"
 
-func printMe() {
+func PrintMe() {
 	log.Printf("Hello world v1")
 }
 
-func anotherPrint() {
+func AnotherPrint() {
 	log.Printf("New world")
 }
