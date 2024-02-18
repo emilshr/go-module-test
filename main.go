@@ -1,7 +1,11 @@
-package main
+package custom
 
 import "fmt"
 
-func main() {
+func printMe() {
 	fmt.Println("Hello world v1")
+}
+
+func anotherPrint() {
+	fmt.Println("New world")
 }
