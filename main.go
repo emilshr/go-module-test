@@ -1,11 +1,11 @@
 package custom
 
-import "fmt"
+import "log"
 
 func printMe() {
-	fmt.Println("Hello world v1")
+	log.Printf("Hello world v1")
 }
 
 func anotherPrint() {
-	fmt.Println("New world")
+	log.Printf("New world")
 }
